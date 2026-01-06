@@ -1,0 +1,98 @@
+/* Body */
+body {
+    margin: 20px;
+    font-family: Verdana, sans-serif;
+    background-color: #fafafa;
+}
+
+/* Header */
+header {
+    background-color:palevioletred;
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 38px;
+}
+
+/* Navigation */
+nav {
+    background-color: pink;
+    padding: 12px;
+    text-align: right;
+    border-bottom: 1px solid #ddd;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    margin: 0 20px;
+    font-size: 17px;
+}
+
+nav a:hover {
+    color: black;
+}
+
+section {
+    padding: 150px;
+    text-align: center;
+    font-style: normal;
+    color:black;
+    background-color: pink;
+}
+
+.featured-products {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+div.box {
+    background-color: #FFC0C7;
+    padding: 20px;
+    margin: 20px auto;
+    width: 60%;
+    border-radius: 8px;
+}
+
+/* Main Content */
+main {
+    padding: 50px;
+    text-align: center;
+}
+
+main h2 {
+    font-size: 30px;
+}
+
+main p {
+    font-size: 30px;
+    color: white;
+}
+
+/* Button */
+button {
+    background-color: #c0392b;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #a93226;
+}
+
+/* Footer */
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    margin-top: 40px;
+}
