@@ -1,0 +1,204 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Online Shopping</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f4f7fb;
+}
+
+/* NAVBAR */
+.navbar{
+    background:#fff;
+    padding:15px 40px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.navbar a{
+    margin:0 10px;
+    text-decoration:none;
+    color:#333;
+    font-weight:500;
+}
+
+.btn{
+    background:orange;
+    color:white;
+    border:none;
+    padding:8px 18px;
+    border-radius:20px;
+    cursor:pointer;
+}
+
+/* HERO */
+.hero{
+    background:linear-gradient(to right,#2b6cb0,#3182ce);
+    color:white;
+    text-align:center;
+    padding:80px 20px;
+}
+
+.hero h1{
+    font-size:38px;
+    margin-bottom:10px;
+}
+
+.hero p{
+    margin-bottom:20px;
+}
+
+/* FEATURES */
+.features{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    padding:50px 20px;
+}
+
+.card{
+    background:white;
+    padding:25px;
+    width:280px;
+    text-align:center;
+    border-radius:10px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* INFO SECTION */
+.info{
+    display:flex;
+    justify-content:center;
+    gap:40px;
+    padding:40px 20px;
+}
+
+.contact,.why{
+    background:white;
+    padding:25px;
+    width:320px;
+    border-radius:10px;
+}
+
+.contact input{
+    width:100%;
+    padding:10px;
+    margin:15px 0;
+}
+
+.send-btn{
+    width:100%;
+    background:#2b6cb0;
+}
+
+.why ul{
+    margin-top:10px;
+}
+
+.why li{
+    margin:6px 0;
+}
+
+/* FOOTER */
+footer{
+    background:linear-gradient(to right,#2b6cb0,#3182ce);
+    color:white;
+    text-align:center;
+    padding:30px 10px;
+    margin-top:40px;
+}
+
+footer a{
+    color:white;
+    text-decoration:none;
+    margin:0 5px;
+}
+
+/* RESPONSIVE */
+@media(max-width:900px){
+    .features,.info{
+        flex-direction:column;
+        align-items:center;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<div class="navbar">
+    <div><b>⬛ Logo</b></div>
+    <div>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">🔍</a>
+        <button class="btn">Contact</button>
+    </div>
+</div>
+
+<!-- HERO -->
+<div class="hero">
+    <h1>CSS Styles Demo Webpage</h1>
+    <p>Build this page using the CSS concepts you've learned.</p>
+    <button class="btn">Learn More</button>
+</div>
+
+<!-- FEATURES -->
+<div class="features">
+    <div class="card">
+        <h3>⚙ Responsive Design</h3>
+        <p>Learn to make layouts that adapt to any screen size</p>
+    </div>
+    <div class="card">
+        <h3>🎨 Customizable Styles</h3>
+        <p>Apply colors, fonts, and spacing with ease</p>
+    </div>
+    <div class="card">
+        <h3>⚡ Optimized Performance</h3>
+        <p>Efficient CSS for fast, smooth user experiences</p>
+    </div>
+</div>
+
+<!-- INFO -->
+<div class="info">
+    <div class="contact">
+        <h3>📩 Get in Touch</h3>
+        <input type="email" placeholder="Your email address">
+        <button class="btn send-btn">Send</button>
+    </div>
+
+    <div class="why">
+        <h3>➕ Why Learn CSS?</h3>
+        <p>CSS controls the style and layout of web pages.</p>
+        <ul>
+            <li>✔ Enhance your HTML</li>
+            <li>✔ Improve site accessibility</li>
+            <li>✔ Gain real-world skills</li>
+        </ul>
+    </div>
+</div>
+
+<!-- FOOTER -->
+<footer>
+    <h4>🐙 GitHub Hello</h4>
+    <p>© 2024 Demo Webpage | Responsive Design</p>
+    <p>
+        <a href="#">Privacy Policy</a> |
+        <a href="#">Terms of Service</a>
+    </p>
+</footer>
+
+</body>
+</html>
